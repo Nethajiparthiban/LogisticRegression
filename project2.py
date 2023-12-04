@@ -26,7 +26,7 @@ y_pred=model.predict(x_test)
 #print(y_pred)
 #Accuracy
 score=model.score(x_test,y_test)
-#print(score.round(),'%')
+print(score.round(),'%')
 co_eff=model.coef_
 int_cep=model.intercept_
-print(co_eff,int_cep)
+#print(co_eff,int_cep)
