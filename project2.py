@@ -25,8 +25,8 @@ model.fit(x_train,y_train)
 y_pred=model.predict(x_test)
 #print(y_pred)
 #Accuracy
-score=model.score(x_test,y_test)
-print(score.round(),'%')
 co_eff=model.coef_
 int_cep=model.intercept_
 #print(co_eff,int_cep)
+score=model.score(x_test,y_test)
+print(score.round(),'%')
