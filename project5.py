@@ -30,4 +30,4 @@ co_eff=model.coef_
 inte_cept=model.intercept_
 #print(inte_cept)
 score=model.score(x_test,y_test)
-print(score*100,'%')
+print(score*100)
