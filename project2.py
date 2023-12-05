@@ -30,3 +30,4 @@ int_cep=model.intercept_
 #print(co_eff,int_cep)
 score=model.score(x_test,y_test)
 print(score.round(),'%')
+
